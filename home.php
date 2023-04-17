@@ -37,6 +37,47 @@
 
 <!-- Header End. -->
 
+<!-- Footer Start. -->
+
+<section class="footer">
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="home.php"><i class="fa fa-home"></i>home</a>
+            <a href="packages.php"><i class="fa fa-plane"></i>packages</a>
+            <a href="book.php"><i class="fa fa-handshake"></i>book</a>
+            <a href="about us.php"><i class="fa fa-user-circle"></i>services</a>
+        </div>
+
+        <div class="box">
+            <h3>Extra Links</h3>
+            <a href="#"><i class="fa fa-question-circle"></i>Queries</a>
+            <a href="#"><i class="fa fa-phone"></i>About Us</a>
+            <a href="#"><i class="fa fa-user-secret"></i>Privacy Policy</a>
+            <a href="#"><i class="fa fa-address-card"></i>Terms And Conditions</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#"><i class="fa fa-phone"></i>+91 1234567890</a>
+            <a href="#"><i class="fa fa-phone"></i>+65 12345678</a>
+            <a href="#"><i class="fa fa-envelope"></i>HolidayPlanner@JCU-SG</a>
+            <a href="#"><i class="fa fa-map-marker"></i>JCU-SG 387380</a>
+        </div>
+
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+            <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer End -->
+
 <!-- Swiper JS link. -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
