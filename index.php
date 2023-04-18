@@ -37,6 +37,42 @@
 
 <!-- Header End. -->
 
+<!-- Services Start. -->
+
+<div class="services">
+    <h1 class="services-title"> Our Services </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/touristattraction.png" alt="">
+            <h3>Tourist Attraction</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/tourguide.png" alt="">
+            <h3>Tour Guide</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/Hiking.png" alt="">
+            <h3>Hiking</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/cycling.png" alt="">
+            <h3>Cycling</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/Campfire.png" alt="">
+            <h3>Campfire</h3>
+        </div>
+
+    </div>
+</div>
+
+<!-- Services End -->
+
 <!-- Footer Start. -->
 
 <section class="footer">
