@@ -37,6 +37,45 @@
 
 <!-- Header End. -->
 
+<!-- Home Section Start. -->
+
+<section class="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide" style="background:url(images/homeslider1.jpg) no-repeat">
+                <div class="content">
+                    <span>Travel, Explore and Discover</span>
+                    <h3>Travel across the world</h3>
+                    <a href="#" class="btn">Travel</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(images/homeslider2.jpg) no-repeat">
+                <div class="content">
+                    <span>Travel, Explore and Discover</span>
+                    <h3>Explore Countries</h3>
+                    <a href="#" class="btn">Explore</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(images/homeslider3.jpg) no-repeat">
+                <div class="content">
+                    <span>Travel, Explore and Discover</span>
+                    <h3>Discover New things</h3>
+                    <a href="#" class="btn">Discover</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+</section>
+
+<!-- Home section End. -->
+
 <!-- Services Start. -->
 
 <div class="services">

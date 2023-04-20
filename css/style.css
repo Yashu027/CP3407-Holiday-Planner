@@ -45,6 +45,28 @@ section{
     padding: 5rem 3%;
 }
 
+@keyframes fadeIn {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+.btn{
+    display: inline-block;
+    background: var(--black);
+    margin-top: 1rem;
+    color: var(--white);
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: var(--main-color);
+
+}
+
 .services-title{
     text-align: center;
     font-size: 4rem;
@@ -92,6 +114,56 @@ section{
     color: var(--main-color);
     display: none;
 }
+
+/* Home Section Start */
+
+.home{
+    padding: 0;
+}
+
+.home .slide{
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 33rem;
+}
+
+.home .slide .content{
+    width: 85rem;
+    display: none;
+}
+
+.home .swiper-slide-active .content{
+    display: inline-block;
+}
+
+.home .slide .content span{
+    display: block;
+    font-size: 2.2rem;
+    color: var(--main-color);
+    padding-bottom: 1rem;
+    animation:fadeIn .2s linear backwards .3s;
+}
+
+.home .slide .content h3{
+    font-size: 6vw;
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: var(--text-shadow);
+    padding: 1rem 0;
+    animation:fadeIn .2s linear backwards .4s;
+}
+
+.home .slide .content .btn{
+    animation:fadeIn .2s linear backwards .5s;
+}
+
+/* Home Section End */
 
 /* Serivces Start */
 
