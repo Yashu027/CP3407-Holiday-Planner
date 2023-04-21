@@ -112,6 +112,21 @@
 
 <!-- Services End -->
 
+<!-- About Website Start -->
+
+<section class="home-about-us">
+    <div class="image">
+        <img src="images/test.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>About Us</h3>
+        <p>About Us information goes here.</p>
+        <a href="#" class="btn">Know More</a>
+    </div>
+</section>
+
+<!-- About Website End -->
+
 <!-- Footer Start. -->
 
 <section class="footer">
