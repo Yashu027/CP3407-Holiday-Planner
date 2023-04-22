@@ -215,7 +215,7 @@ section{
 
 .home-about-us .content{
     flex: 1 1 41rem;
-    padding: 4rem;
+    padding: 3rem;
     background: var(--light-bg);
 }
 
@@ -232,6 +232,42 @@ section{
 }
 
 /* About Us End */
+
+/* Birthday Special Start */ 
+
+.home-sign-up{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-sign-up .image{
+    flex: 1 1 41rem;
+}
+
+.home-sign-up .image img{
+    width: 100%;
+}
+
+.home-sign-up .content{
+    flex: 1 1 41rem;
+    padding: 1rem;
+    background: var(--light-bg);
+}
+
+.home-sign-up .content h3{
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.home-sign-up .content p{
+    font-size: 1rem;
+    color: var(--black);
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+/* Birthday Special End */
 
 /* Footer Start */
 

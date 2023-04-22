@@ -127,6 +127,21 @@
 
 <!-- About Website End -->
 
+<!-- Birthday Special Sign Up Start -->
+
+<section class="home-sign-up">
+    <div class="image">
+        <img src="images/birthdayspecial.PNG" alt="">
+    </div>
+    <div class="content">
+        <h3>Birthday Special</h3>
+        <p>Sign Up for the Birthday Special newsletter to get 50% Off on packages travelling during your Birthday week.</p>
+        <a href="#" class="btn">Sign Up for Birthday Special off!</a>
+    </div>
+</section>
+
+<!-- Birthday Special Sign up End -->
+
 <!-- Footer Start. -->
 
 <section class="footer">
