@@ -127,6 +127,55 @@
 
 <!-- About Website End -->
 
+<!-- Packages In Home Start -->
+
+<section class="packages">
+    <h1 class="packages-title">Our Packages</h1>
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/test (4).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>India</h3>
+                <p>from $379</p>
+                <a href="#" class="btn">Book Trip</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/test (5).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Singapore</h3>
+                <p>From $419</p>
+                <a href="#" class="btn">Book Trip</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/test.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Australia</h3>
+                <p>From $469</p>
+                <a href="#" class="btn">Book Trip</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="loadmore">
+        <a href="#" class ="btn">Load More</a>
+    </div>
+
+</section>
+
+<!-- Packages In Home End -->
+
 <!-- Birthday Special Sign Up Start -->
 
 <section class="home-sign-up">

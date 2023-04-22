@@ -233,6 +233,67 @@ section{
 
 /* About Us End */
 
+/* Packages Start */
+
+.packages-title{
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.packages{
+    background: var(--light-bg);
+}
+
+.packages .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+}
+
+.packages .box-container .box{
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    background-color: var(--white);
+}
+
+.packages .box-container .box .image{
+    height: 25rem;
+    overflow: hidden;
+}
+
+.packages .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.packages .box-container .box .content{
+    padding: 2rem;
+    text-align: center;
+}
+
+.packages .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.packages .box-container .box .content p{
+    font-size: 1.5rem;
+    color: var(--black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.packages .loadmore{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Packages End */
+
 /* Birthday Special Start */ 
 
 .home-sign-up{
