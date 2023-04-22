@@ -29,6 +29,8 @@
         <a href="packages.php">packages</a>
         <a href="book.php">book</a>
         <a href="about us.php">about us</a>
+        <a href="moreattractions.php">More Attractions</a>
+        <a href="loginregister.php">login/register</a>
     </nav>
 
     <div id="menu-btn" class="fas fa-bars"></div>
@@ -202,6 +204,8 @@
             <a href="packages.php"><i class="fa fa-plane"></i>packages</a>
             <a href="book.php"><i class="fa fa-handshake"></i>book</a>
             <a href="about us.php"><i class="fa fa-user-circle"></i>services</a>
+            <a href="attractions.php"><i class="fa fa-store"></i>More Attractions</a>
+            <a href="loginregister.php"><i class="fa fa-sign-in"></i>login/register</a>
         </div>
 
         <div class="box">
@@ -217,6 +221,7 @@
             <a href="#"><i class="fa fa-phone"></i>+91 1234567890</a>
             <a href="#"><i class="fa fa-phone"></i>+65 12345678</a>
             <a href="#"><i class="fa fa-envelope"></i>HolidayPlanner@JCU-SG</a>
+            <a href="#"><i class="fa fa-envelope"></i>HolidayPlanner@JCU-AU</a>
             <a href="#"><i class="fa fa-map-marker"></i>JCU-SG 387380</a>
         </div>
 
