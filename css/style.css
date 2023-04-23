@@ -129,7 +129,7 @@ section{
     justify-content: center;
     background-size: cover !important;
     background-position: center !important;
-    min-height: 33rem;
+    min-height: 38rem;
 }
 
 .home .slide .content{
@@ -165,82 +165,7 @@ section{
 
 /* Home Section End */
 
-/* Serivces Start */
-
-.services .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.services .box-container .box{
-    padding: 3rem 2rem;
-    text-align: center;
-    background: var(--black);
-    cursor: pointer;
-}
-
-.services .box-container .box:hover{
-    background: var(--main-color);
-}
-
-.services .box-container .box img{
-    height: 7em;
-}
-
-.services .box-container .box h3{
-    color: var(--white);
-    font-size: 1.7rem;
-    padding-top: 1rem;
-}
-
-/* Services End */
-
-/* About Us Start */
-
-.home-about-us{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.home-about-us .image{
-    flex: 1 1 41rem;
-}
-
-.home-about-us .image img{
-    width: 100%;
-}
-
-.home-about-us .content{
-    flex: 1 1 41rem;
-    padding: 3rem;
-    background: var(--light-bg);
-}
-
-.home-about-us .content h3{
-    font-size: 3rem;
-    color: var(--black);
-}
-
-.home-about-us .content p{
-    font-size: 1rem;
-    color: var(--black);
-    padding: 1rem 0;
-    line-height: 2;
-}
-
-/* About Us End */
-
 /* Packages Start */
-
-.packages-title{
-    text-align: center;
-    font-size: 4rem;
-    text-transform: uppercase;
-    color: var(--black);
-}
 
 .packages{
     background: var(--light-bg);
@@ -294,6 +219,77 @@ section{
 
 /* Packages End */
 
+/* Packages Include Start */
+
+.packages-title{
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.packagesinclude .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.packagesinclude .box-container .box{
+    padding: 3rem 2rem;
+    text-align: center;
+    background: var(--black);
+    cursor: pointer;
+}
+
+.packagesinclude .box-container .box:hover{
+    background: var(--main-color);
+}
+
+.packagesinclude .box-container .box img{
+    height: 7em;
+}
+
+.packagesinclude .box-container .box h3{
+    color: var(--white);
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+
+/* Packages Include End */
+
+/* Serivces Start */
+
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.services .box-container .box{
+    padding: 3rem 2rem;
+    text-align: center;
+    background: var(--black);
+    cursor: pointer;
+}
+
+.services .box-container .box:hover{
+    background: var(--main-color);
+}
+
+.services .box-container .box img{
+    height: 7em;
+}
+
+.services .box-container .box h3{
+    color: var(--white);
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+
+/* Services End */
+
 /* Birthday Special Start */ 
 
 .home-sign-up{
@@ -329,6 +325,42 @@ section{
 }
 
 /* Birthday Special End */
+
+/* About Us Start */
+
+.home-about-us{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-about-us .image{
+    flex: 1 1 41rem;
+}
+
+.home-about-us .image img{
+    width: 100%;
+}
+
+.home-about-us .content{
+    flex: 1 1 41rem;
+    padding: 3rem;
+    background: var(--light-bg);
+}
+
+.home-about-us .content h3{
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.home-about-us .content p{
+    font-size: 1rem;
+    color: var(--black);
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+/* About Us End */
 
 /* Footer Start */
 
@@ -431,6 +463,10 @@ section{
     }
 
     .services-title{
+        font-size: 3rem;
+    }
+
+    .packages-title{
         font-size: 3rem;
     }
 }

@@ -78,57 +78,6 @@
 
 <!-- Home section End. -->
 
-<!-- Services Start. -->
-
-<div class="services">
-    <h1 class="services-title"> Our Services </h1>
-    <div class="box-container">
-
-        <div class="box">
-            <img src="images/touristattraction.png" alt="">
-            <h3>Tourist Attraction</h3>
-        </div>
-
-        <div class="box">
-            <img src="images/tourguide.png" alt="">
-            <h3>Tour Guide</h3>
-        </div>
-
-        <div class="box">
-            <img src="images/Hiking.png" alt="">
-            <h3>Hiking</h3>
-        </div>
-
-        <div class="box">
-            <img src="images/cycling.png" alt="">
-            <h3>Cycling</h3>
-        </div>
-
-        <div class="box">
-            <img src="images/Campfire.png" alt="">
-            <h3>Campfire</h3>
-        </div>
-
-    </div>
-</div>
-
-<!-- Services End -->
-
-<!-- About Website Start -->
-
-<section class="home-about-us">
-    <div class="image">
-        <img src="images/test.jpg" alt="">
-    </div>
-    <div class="content">
-        <h3>About Us</h3>
-        <p>About Us information goes here.</p>
-        <a href="#" class="btn">Know More</a>
-    </div>
-</section>
-
-<!-- About Website End -->
-
 <!-- Packages In Home Start -->
 
 <section class="packages">
@@ -178,6 +127,68 @@
 
 <!-- Packages In Home End -->
 
+<!-- Packages Inlude Start -->
+
+<div class="packagesinclude">
+    <h1 class="packages-title">our Packages Include </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/flights.png" alt="">
+            <h3>Flight Tickets</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/hotel.png" alt="">
+            <h3>Accommodation</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/visa.png" alt="">
+            <h3>Visa</h3>
+        </div>
+
+    </div>
+</div>
+
+<!-- Packages Inlude End -->
+
+<!-- Services Start. -->
+
+<div class="services">
+    <h1 class="services-title"> Our Services </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/touristattraction.png" alt="">
+            <h3>Tourist Attraction</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/tourguide.png" alt="">
+            <h3>Tour Guide</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/Hiking.png" alt="">
+            <h3>Hiking</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/cycling.png" alt="">
+            <h3>Cycling</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/Campfire.png" alt="">
+            <h3>Campfire</h3>
+        </div>
+
+    </div>
+</div>
+
+<!-- Services End -->
+
 <!-- Birthday Special Sign Up Start -->
 
 <section class="home-sign-up">
@@ -192,6 +203,21 @@
 </section>
 
 <!-- Birthday Special Sign up End -->
+
+<!-- About Website Start -->
+
+<section class="home-about-us">
+    <div class="image">
+        <img src="images/test.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>About Us</h3>
+        <p>About Us information goes here.</p>
+        <a href="#" class="btn">Know More</a>
+    </div>
+</section>
+
+<!-- About Website End -->
 
 <!-- Footer Start. -->
 
