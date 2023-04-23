@@ -30,6 +30,7 @@
         <a href="book.php">book</a>
         <a href="about us.php">about us</a>
         <a href="moreattractions.php">More Attractions</a>
+        <a href="store.php">store</a>
         <a href="loginregister.php">login/register</a>
     </nav>
 
@@ -230,7 +231,8 @@
             <a href="packages.php"><i class="fa fa-plane"></i>packages</a>
             <a href="book.php"><i class="fa fa-handshake"></i>book</a>
             <a href="about us.php"><i class="fa fa-user-circle"></i>services</a>
-            <a href="attractions.php"><i class="fa fa-store"></i>More Attractions</a>
+            <a href="attractions.php"><i class="fa fa-university"></i>More Attractions</a>
+            <a href="store.php"><i class="fa fa-store"></i>Store</a>
             <a href="loginregister.php"><i class="fa fa-sign-in"></i>login/register</a>
         </div>
 
