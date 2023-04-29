@@ -81,7 +81,7 @@
 
 <!-- Packages In Home Start -->
 
-<section class="packages">
+<section class="home-packages">
     <h1 class="packages-title">Our Packages</h1>
     <div class="box-container">
 
@@ -121,7 +121,7 @@
     </div>
 
     <div class="loadmore">
-        <a href="#" class ="btn">Load More</a>
+        <a href="packages.php" class ="btn">Load More</a>
     </div>
 
 </section>

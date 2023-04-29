@@ -44,6 +44,147 @@
     <h1>packages</h1>
 </div>
 
+<section class="packages">
+    <h1 class="heading-title">popular destinations</h1>
+    <div class="box-container">
+        
+        <div class="box">
+            <div class="image">
+                <img src="images/test (4).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>India</h3>
+                <p>from $399</p>
+                <a href="book.php" class="btn">book trip</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/test (5).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Singapore</h3>
+                <p>from $499</p>
+                <a href="book.php" class="btn">book trip</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/test (4).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Australia</h3>
+                <p>from $559</p>
+                <a href="book.php" class="btn">book trip</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/test (5).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Austria</h3>
+                <p>from $349</p>
+                <a href="book.php" class="btn">book trip</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/test (4).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Dubai</h3>
+                <p>from $469</p>
+                <a href="book.php" class="btn">book trip</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/test (5).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Paris</h3>
+                <p>from $739</p>
+                <a href="book.php" class="btn">book trip</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/test (4).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Maldives</h3>
+                <p>from $599</p>
+                <a href="book.php" class="btn">book trip</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/test (5).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Thailand</h3>
+                <p>from $399</p>
+                <a href="book.php" class="btn">book trip</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/test (4).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>London</h3>
+                <p>from $789</p>
+                <a href="book.php" class="btn">book trip</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/test (5).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>New york</h3>
+                <p>from $999</p>
+                <a href="book.php" class="btn">book trip</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/test (4).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Sri lanka</h3>
+                <p>from $299</p>
+                <a href="book.php" class="btn">book trip</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/test (5).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Malaysia</h3>
+                <p>from $489</p>
+                <a href="book.php" class="btn">book trip</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="loadmore"><span class="btn">load more</span></div>
+</section>
+
 <!-- Footer Start. -->
 
 <section class="footer">
