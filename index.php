@@ -25,10 +25,10 @@
     <a href = "home.php" class = "logo">Holiday-planner</a>
 
     <nav class="navbar">
-        <a href="home.php">home</a>
+        <a href="index.php">home</a>
         <a href="packages.php">packages</a>
         <a href="book.php">book</a>
-        <a href="about us.php">about us</a>
+        <a href="aboutus.php">about us</a>
         <a href="moreattractions.php">More Attractions</a>
         <a href="store.php">store</a>
         <a href="loginregister.php">login/register</a>
