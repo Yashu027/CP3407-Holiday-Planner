@@ -516,6 +516,58 @@ section{
 
 /* Packages End */
 
+/* Book From Start */
+
+.booking .book-form{
+    padding: 0.7rem;
+    background: var(--light-bg);
+}
+
+.booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.booking .book-form .flex .inputbox{
+    flex: 1 1 40rem;
+}
+
+.booking .book-form .flex .inputbox input{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 0.8rem;
+    color: var(--light-black);
+    text-transform: none;
+    margin-top: 1rem;
+    border: var(--border);
+}
+
+.booking .book-form .flex .inputbox input:focus{
+    background: var(--black);
+    color: var(--white);
+}
+
+.booking .book-form .flex .inputbox input:focus:placeholder{
+    color: var(--light-white);
+}
+
+.booking .book-form .flex .inputbox span{
+    font-size: 0.9rem;
+    color: var(--light-black);
+
+}
+
+.booking .book-form .btn{
+    display: block;
+    margin: 0 auto;
+    font-size: 1rem;
+
+}
+
+/* Book From End */
+
 /* Footer Start */
 
 .footer .box-container{

@@ -44,6 +44,47 @@
     <h1>book now</h1>
 </div>
 
+<section class="booking">
+    <h1 class="heading-title">Book your Package</h1>
+    <form action="#" methot="post" class="book-form">
+        <div class="flex">
+            <div class="inputbox">
+                <span>name: </span>
+                <input type="text" placeholder="Enter your name" name = "name">
+            </div>
+            <div class="inputbox">
+                <span>email: </span>
+                <input type="email" placeholder="Enter your email" name = "email">
+            </div>
+            <div class="inputbox">
+                <span>contact: </span>
+                <input type="number" placeholder="Contact number (with country code)" name = "contact">
+            </div>
+            <div class="inputbox">
+                <span>number of travellers: </span>
+                <input type="number" placeholder="Total passengers" name = "travellers">
+            </div>
+            <div class="inputbox">
+                <span>departure: </span>
+                <input type="text" placeholder="From" name = "departure">
+            </div>
+            <div class="inputbox">
+                <span>arrival: </span>
+                <input type="text" placeholder="To" name = "arrival">
+            </div>
+            <div class="inputbox">
+                <span>departure date: </span>
+                <input type="date" name = "date">
+            </div>
+            <div class="inputbox">
+                <span>arrival date: </span>
+                <input type="date" name = "date">
+            </div>
+        </div>
+        <input type="submit" value="submit" class="btn" name="send">
+    </form>
+</section>
+
 <!-- Footer Start. -->
 
 <section class="footer">
