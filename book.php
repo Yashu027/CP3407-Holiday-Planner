@@ -46,7 +46,7 @@
 
 <section class="booking">
     <h1 class="heading-title">Book your Package</h1>
-    <form action="#" methot="post" class="book-form">
+    <form action="book_form.php" method="post" class="book-form">
         <div class="flex">
             <div class="inputbox">
                 <span>name: </span>
@@ -58,11 +58,11 @@
             </div>
             <div class="inputbox">
                 <span>contact: </span>
-                <input type="number" placeholder="Contact number (with country code)" name = "contact">
+                <input type="number" placeholder="Contact number" name = "contact">
             </div>
             <div class="inputbox">
-                <span>number of travellers: </span>
-                <input type="number" placeholder="Total passengers" name = "travellers">
+                <span>number of passengers: </span>
+                <input type="number" placeholder="Total passengers" name = "passengers">
             </div>
             <div class="inputbox">
                 <span>departure: </span>
@@ -73,12 +73,20 @@
                 <input type="text" placeholder="To" name = "arrival">
             </div>
             <div class="inputbox">
+                <span>departure city/district: </span>
+                <input type="text" placeholder="City/District (NA if no City/District)" name = "departure_place">
+            </div>
+            <div class="inputbox">
+                <span>arrival city/district: </span>
+                <input type="text" placeholder="City/District (NA if no City/District)" name = "arrival_place">
+            </div>
+            <div class="inputbox">
                 <span>departure date: </span>
-                <input type="date" name = "date">
+                <input type="date" name = "departure_date">
             </div>
             <div class="inputbox">
                 <span>arrival date: </span>
-                <input type="date" name = "date">
+                <input type="date" name = "arrival_date">
             </div>
         </div>
         <input type="submit" value="submit" class="btn" name="send">
