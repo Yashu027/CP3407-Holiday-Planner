@@ -641,6 +641,64 @@ section{
 
 /* Store End */
 
+/* Attractions Start */
+
+.attraction .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    gap: 1rem;
+}
+
+.attraction .box-container .box {
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    background-color: var(--white);
+    display: none;
+}
+
+.attraction .box-container .box:nth-child(-n+4) {
+  display: inline-block;
+}
+
+.attraction .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.attraction .box-container .box .image{
+    height: 15rem;
+    overflow: hidden;
+}
+
+.attraction .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.attraction .box-container .box .content{
+    padding: 1rem;
+    text-align: center;
+}
+
+.attraction .box-container .box .content h3{
+    font-size: 0.98rem;
+    color: var(--black);
+}
+
+.attraction .box-container .box .content p{
+    font-size: 0.8rem;
+    color: var(--black);
+    line-height: 2;
+    padding: 0 0;
+}
+
+.attraction .loadmore{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Attractions End */
 /* Footer Start */
 
 .footer .box-container{

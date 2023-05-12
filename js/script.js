@@ -58,3 +58,23 @@ if(loadMoreBtnStore){
 } else {
     console.log("Could not find loadMoreBtnStore");
 }
+
+let loadMoreBtnAttraction = document.querySelector('.attraction .loadmore .btn');
+let currentItemAttraction = 4;
+
+if(loadMoreBtnAttraction){
+    loadMoreBtnAttraction.onclick = () =>{
+        let boxes = [...document.querySelectorAll('.attraction .box-container .box')];
+        for (let i = currentItemAttraction; i < currentItemAttraction + 4; i++){
+            if(boxes[i]){
+                boxes[i].style.display = 'inline-block';
+            }
+        };
+        currentItemAttraction += 4;
+        if(currentItemAttraction >= boxes.length){
+            loadMoreBtnAttraction.style.display = 'none';
+        }
+    }
+} else {
+    console.log("Could not find loadMoreBtnAttraction");
+}
