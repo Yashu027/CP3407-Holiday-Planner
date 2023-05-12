@@ -44,6 +44,180 @@
     <h1>store</h1>
 </div>
 
+<section class="store">
+    <h1 class="heading-title">popular Items</h1>
+    <div class="box-container">
+        
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>backpack</h3>
+                <p>from $49</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>suitcase</h3>
+                <p>from $99</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>travel pillow</h3>
+                <p>from $59</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>wallet</h3>
+                <p>from $39</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>purse</h3>
+                <p>from $49</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>adapter</h3>
+                <p>from $79</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>headphones</h3>
+                <p>from $59</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>earphones</h3>
+                <p>from $39</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem9.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>locks</h3>
+                <p>from $17</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem10.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>toiletry bag</h3>
+                <p>from $9</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem11.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>luggage tags</h3>
+                <p>from $9</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem12.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>weighing scale</h3>
+                <p>from $40</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem13.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>portable water bottle</h3>
+                <p>from $30</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem14.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>travel laundry bag</h3>
+                <p>from $37</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/storeitem15.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>sleep mask</h3>
+                <p>from $10</p>
+                <a href="#" class="btnbuy">buy</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="loadmore"><span class="btn">load more</span></div>
+</section>
+
 <!-- Footer Start. -->
 
 <section class="footer">

@@ -84,6 +84,21 @@ section{
 
 }
 
+.btnbuy{
+    display: inline-block;
+    background: var(--black);
+    margin-top: 1rem;
+    color: var(--white);
+    font-size: 0.9rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.btnbuy:hover{
+    background: var(--main-color);
+
+}
+
 .services-title{
     text-align: center;
     font-size: 4rem;
@@ -566,6 +581,65 @@ section{
 }
 
 /* Book From End */
+
+/* Store Start */
+
+.store .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    gap: 1rem;
+}
+
+.store .box-container .box {
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    background-color: var(--white);
+    display: none;
+}
+
+.store .box-container .box:nth-child(-n+5) {
+  display: inline-block;
+}
+
+.store .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.store .box-container .box .image{
+    height: 15rem;
+    overflow: hidden;
+}
+
+.store .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.store .box-container .box .content{
+    padding: 1rem;
+    text-align: center;
+}
+
+.store .box-container .box .content h3{
+    font-size: 0.98rem;
+    color: var(--black);
+}
+
+.store .box-container .box .content p{
+    font-size: 0.8rem;
+    color: var(--black);
+    line-height: 2;
+    padding: 0 0;
+}
+
+.store .loadmore{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Store End */
 
 /* Footer Start */
 
