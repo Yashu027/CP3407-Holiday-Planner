@@ -78,3 +78,52 @@ if(loadMoreBtnAttraction){
 } else {
     console.log("Could not find loadMoreBtnAttraction");
 }
+
+function name_validate(name) {
+	if (name.length == 1){
+		alert("Invalid Name. Please enter a Name that has more than one letter.");
+return true;
+	}
+	else {return false;}
+}
+
+function email_validate(email) {
+    if (email.search(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/) != -1)
+    return false;
+    else {
+    alert("Invalid Email address. Please enter a valid Email address.");
+    return true;}
+    }
+
+function birthday_validate() {
+    var month = document.getElementById("birth_month").value;
+    var day = document.getElementById("birth_day").value;
+    if (month == 2 & day > 29) {
+        alert("Invalid. Please enter a valid date of birth");
+        return true;}
+    if (month == 4 & day > 30) {
+    alert("Invalid. Please enter a valid date of birth");
+    return true;}
+    if (month == 6 & day > 30) {
+    alert("Invalid. Please enter a valid date of birth");
+    return true;}
+    if (month == 9 & day > 30) {
+    alert("Invalid. Please enter a valid date of birth");
+    return true;}
+    if (month == 11 & day > 30) {
+    alert("Ivalid. Please enter a valid date of birth");
+    return true;}
+    if (month == 0 || day == 0) {
+            alert("Invalid. Please enter a valid date of birth");
+            return true;}
+else {return false;}
+}
+
+function validateForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    if (name_validate(name) || email_validate(email) || birthday_validate()){
+        return false; }
+    else {return true;}
+}
+    

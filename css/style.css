@@ -577,6 +577,37 @@ section{
 	font-size: 1em;
 }
 
+.Flights_Offer{
+	font-size: 1.2em;
+	padding: 2px 0px;
+}
+
+.Packages{
+	font-size: 1.2em;
+	padding: 2px 0px;
+}
+
+.Visa_Offers{
+	font-size: 1.2em;
+	padding: 2px 0px;
+}
+
+.Accomidation_Offers{
+	font-size: 1.2em;
+	padding: 2px 0px;
+}
+
+.agree{
+	padding: 20px 0px 0px 0px;
+	font-size: 1.2em;
+}
+.day{
+	font-size: 1.2em;
+}
+.month{
+	font-size: 1.2em;
+}
+
 /* Birthday Specilas */
 
 /* Book From Start */
@@ -892,4 +923,5 @@ section{
     .packages-title{
         font-size: 3rem;
     }
+}
 }

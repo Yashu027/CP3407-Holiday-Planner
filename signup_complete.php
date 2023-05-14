@@ -40,55 +40,38 @@
 
 <!-- Header End. -->
 
-<!-- Sign Up Start -->
-
+    <!-- <div class ="form_1"> -->
     <div class="form_1">
-
 <div class="sign_up">
-    <h1>Birthday Specials Signup</h1>
-    <form onsubmit="return validateForm()" action="signup_complete.php" method="post">
-    <div class="form_size">Name*  </div>
-      <label for="name"></label>
-      <input class="fix_height" type="text" id="name" size="115" name="name" placeholder="E.g. Sallu Bhai" required>
-      <label id="Uname"> Invalid</label>
-
-    <div class="form_size"> Email*</div>
-      <label for="email"></label>
-      <input class="fix_height" type="text" id="email" size="115" name="email" placeholder="E.g. SalluBhai@gmail.com"  required>
-      <label id="Uname"> Invalid</label>
-
-    <div class="form_size">Birthday Off:</div>
-        <!-- <input type="checkbox" id="product" name="product1" value="#"> -->
-        <label class="#" for="product1">50% OFF on flight tickets</label><br>
-
-    <div class="form_size">Choose what you are intrested on and like to be notified on</div>
-
-      <input type="checkbox" id="product" name="product1" value="Flights Offer">
-      <label class="Flights_Offer" for="product1">Flights Offer</label><br>
-      <input type="checkbox" id="product" name="product2" value="Packages">
-      <label class="Packages" for="product2">Packages</label><br>
-      <input type="checkbox" id="product" name="product3" value="Visa Offers">
-      <label class="Visa_Offers" for="product3">Visa Offers</label><br>
-      <input type="checkbox" id="product" name="product4" value="Accomidation Offers">
-      <label class="Accomidation_Offers" for="product4">Accomidation Offers</label><br>
-
-      <div class="form_size">Birthday*</div>
-        <lable for="birth" class="day">Day</lable>
-        <input class="fix_width" type="number" id="birth_day" name="birth_day"  value="" oninput="if(value>31)value=31;if(value<1)value=1" required>&nbsp;&nbsp;
-        <lable class="month" for="birth">Month</lable>
-        <input class="fix_width"type="number" id="birth_month" name="birth_month"  value="" oninput="if(value>12)value=12;if(value<1)value=2" required>
-
-        <div class="agree">
-					<input type="checkbox" id="agree" name="agree" required>
-					<lable for="agree">I agree to be added to the Holiday-planner email list.</lable>
-        </div>
-		<button class="btnbuy" type="submit">Send</button>
-    </form>
-
+    <h1>Birthday Specials Signup</h1> <br><br>
+    <h2><b>Thank you for signing up for the Holiday-planner Birthday Specials.<br><br>
+    We have added the following information regarding your interests:</b></h2>
+    <p class="form_size">Name:</p><?php echo $_POST["name"]; ?><br>
+    <p class="form_size">Email: </p><?php echo $_POST["email"]; ?><br>
+    <?php $str1 = " ";
+          if ((isset($_POST["product1"])) ||
+            (isset($_POST["product2"])) ||
+            (isset($_POST["product3"])) ||
+            (isset($_POST["product4"])))
+            $str1.= "<p class='form_size'>Product interests:</p>";
+          echo $str1;    ?>
+      <?php $str = " ";
+          if (isset($_POST["product1"]))
+            $str.= $_POST["product1"].= "<br>";
+          if (isset($_POST["product2"]))
+            $str.= $_POST["product2"].= "<br>";
+          if (isset($_POST["product3"]))
+            $str.= $_POST["product3"].= "<br>";
+          if (isset($_POST["product4"]))
+            $str.= $_POST["product4"];
+          echo $str;    ?>
+<p class="form_size">Birthday: </p>
+Day:&nbsp;<?php echo $_POST["birth_day"]; ?>&nbsp;&nbsp; Month:&nbsp;<?php echo $_POST["birth_month"]; ?>
+    <p></p>
+  <p></p>
+  <p></p>
+  </div>
 </div>
-</div>
-
-<!-- Sign Up End -->
 
 <!-- Footer Start. -->
 
