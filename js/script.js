@@ -126,3 +126,15 @@ function validateForm() {
         return false; }
     else {return true;}
 }
+
+function validateForm() {
+    var inputs = document.getElementsByClassName('book-form')[0].getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        if(inputs[i].value === '') {
+            alert('Please fill all fields before submitting');
+            return false;
+        }
+    }
+    alert('Thanks for booking, our booking assossiates will contact you');
+    return true;
+}

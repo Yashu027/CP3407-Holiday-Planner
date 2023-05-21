@@ -121,12 +121,27 @@
     </div>
 
     <div class="loadmore">
-        <a href="packages.php" class ="btn">Load More</a>
+        <a href="packages.php" class ="btn">Check More</a>
     </div>
 
 </section>
 
 <!-- Packages In Home End -->
+
+<!-- Birthday Special Sign Up Start -->
+
+<section class="home-sign-up">
+    <div class="image">
+        <img src="images/birthdayspecial.PNG" alt="">
+    </div>
+    <div class="content">
+        <h3>Birthday Special</h3>
+        <p>Sign Up for the Birthday Special newsletter to get 50% Off on packages travelling during your Birthday week.</p>
+        <a href="signup.php" class="btn">Sign Up for Birthday Special off!</a>
+    </div>
+</section>
+
+<!-- Birthday Special Sign up End -->
 
 <!-- Packages Inlude Start -->
 
@@ -189,21 +204,6 @@
 </div>
 
 <!-- Services End -->
-
-<!-- Birthday Special Sign Up Start -->
-
-<section class="home-sign-up">
-    <div class="image">
-        <img src="images/birthdayspecial.PNG" alt="">
-    </div>
-    <div class="content">
-        <h3>Birthday Special</h3>
-        <p>Sign Up for the Birthday Special newsletter to get 50% Off on packages travelling during your Birthday week.</p>
-        <a href="signup.php" class="btn">Sign Up for Birthday Special off!</a>
-    </div>
-</section>
-
-<!-- Birthday Special Sign up End -->
 
 <!-- About Website Start -->
 
