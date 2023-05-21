@@ -78,6 +78,58 @@
         </div>
     </div>
 </section>
+
+<!-- Customer Feedback Starts -->
+
+<section class="feedbacks" id="feedbacks">
+    <h1><div class="heading-title">Customer Feedbacks</div></h1>
+
+    <div class="box-container container">
+        <div class="box">
+            <img src="images/customer2.jpg" alt="">
+            <p>Your website provided me with a wide range of options for hotels and flights. I appreciated the detailed descriptions and reviews from other travelers, which helped me make an informed decision.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h3>Khyathi</h3>
+            <span>Service is satisfying</span>
+        </div>
+
+        <div class="box">
+            <img src="images/customer1.jpg" alt="">
+            <p>I had an incredible experience using your travel website. The user interface was intuitive, and I found it easy to navigate and book my flights and accommodations. Just Amazing.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h3>Chaitanya</h3>
+            <span>Best service ever</span>
+        </div>
+
+        <div class="box">
+            <img src="images/customer3.jpg" alt="">
+            <p>I had a wonderful experience using your travel website to book a vacation package. The ability to bundle flights, accommodations, and activities saved me time and money</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Rishika</h3>
+            <span>Smooth Service</span>
+        </div>
+    </div>
+</section>
+
+<!-- Customer Feedback End -->
+
 <!-- Footer Start. -->
 
 <section class="footer">

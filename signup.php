@@ -59,7 +59,7 @@
 
     <div class="form_size">Birthday Off:</div>
         <!-- <input type="checkbox" id="product" name="product1" value="#"> -->
-        <label class="#" for="product1">50% OFF on flight tickets</label><br>
+        <label class="off" for="product1">50% OFF on flight tickets</label><br>
 
     <div class="form_size">Choose what you are intrested on and like to be notified on</div>
 
