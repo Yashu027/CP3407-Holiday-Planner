@@ -50,166 +50,196 @@
         
         <div class="box">
             <div class="image">
-                <img src="images/attraction1.jpg" alt="">
+            <a href="https://www.viator.com/tours/Kochi/Private-Houseboat-Day-Cruise-with-Lunch-from-Cochin/d952-110843P7" target="_blank">
+                <img src="images/attraction1kerala.jpg" alt="">
+            </a>
             </div>
             <div class="content">
-                <h3>India Aurangabad</h3>
-                <p>from $0.24</p>
-                <a href="#" class="btnbuy">buy</a>
+                <h3>Kerala Backwater Day Tour</h3>
+                <p>from $136.12</p>
+                <a href="https://www.viator.com/tours/Kochi/Private-Houseboat-Day-Cruise-with-Lunch-from-Cochin/d952-110843P7" target="_blank" class="btnbuy">buy</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
+            <a href="https://www.viator.com/tours/Singapore/Singapore-Cable-Car-Sky-Pass/d60449-57373P16" target="_blank">
                 <img src="images/attraction2.jpg" alt="">
+            </a>
             </div>
             <div class="content">
                 <h3>Singapore Cable Car</h3>
                 <p>from $21.60</p>
-                <a href="#" class="btnbuy">buy</a>
+                <a href="https://www.viator.com/tours/Singapore/Singapore-Cable-Car-Sky-Pass/d60449-57373P16" target="_blank" class="btnbuy">buy</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
+            <a href="https://www.viator.com/tours/Broome/Sunset-Tour-60-Minutes/d789-136518P1" target="_blank">
                 <img src="images/attraction3.jpg" alt="">
+            </a>
             </div>
             <div class="content">
                 <h3>Australia Broome Sunset</h3>
                 <p>from $78.77</p>
-                <a href="#" class="btnbuy">buy</a>
+                <a href="https://www.viator.com/tours/Broome/Sunset-Tour-60-Minutes/d789-136518P1" target="_blan" class="btnbuy">buy</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
+            <a href="https://www.viator.com/en-GB/tours/Vienna/Concerts-at-St-Peters-Church-Vienna-2017/d454-20099P3" target="_blank">
                 <img src="images/attraction4.jpg" alt="">
+            </a>
             </div>
             <div class="content">
                 <h3>Austria St. Peter's Church</h3>
                 <p>from $37.75</p>
-                <a href="#" class="btnbuy">buy</a>
+                <a href="https://www.viator.com/en-GB/tours/Vienna/Concerts-at-St-Peters-Church-Vienna-2017/d454-20099P3" target="_blank" class="btnbuy">buy</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
+            <a href="https://www.viator.com/en-SG/tours/Dubai/Dubai-Miracle-Garden-Entry-Pass/d828-270296P52" target="_blank">
                 <img src="images/attraction5.jpg" alt="">
+            </a>
             </div>
             <div class="content">
                 <h3>Dubai Miracle Garden</h3>
                 <p>from $28</p>
-                <a href="#" class="btnbuy">buy</a>
+                <a href="https://www.viator.com/en-SG/tours/Dubai/Dubai-Miracle-Garden-Entry-Pass/d828-270296P52" target="_blank" class="btnbuy">buy</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
+            <a href="https://www.viator.com/en-SG/tours/Paris/Bateaux-Mouches-3-Hour-Seine-River-Cruise-Including-Dinner-and-Live-Music/d479-23561P3" target="_blank">
                 <img src="images/attraction6.jpg" alt="">
+            </a>
             </div>
             <div class="content">
                 <h3>Paris Seine River Dinner</h3>
                 <p>from $127.68</p>
-                <a href="#" class="btnbuy">buy</a>
+                <a href="https://www.viator.com/en-SG/tours/Paris/Bateaux-Mouches-3-Hour-Seine-River-Cruise-Including-Dinner-and-Live-Music/d479-23561P3" target="_blank" class="btnbuy">buy</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
+            <a href="https://www.viator.com/en-SG/tours/Male/Maldives-Submarine-Tour/d4673-46474P1" target="_blank">
                 <img src="images/attraction7.jpg" alt="">
+            </a>
             </div>
             <div class="content">
                 <h3>Maldives Submarine Tour</h3>
                 <p>from $80</p>
-                <a href="#" class="btnbuy">buy</a>
+                <a href="https://www.viator.com/en-SG/tours/Male/Maldives-Submarine-Tour/d4673-46474P1" target="_blan" class="btnbuy">buy</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
+            <a href="https://www.viator.com/en-SG/tours/Phuket/James-Bond-Island-trip-on-Luxury-boat-Lunch-buffet-Dinner-Kayaking-Toys-DJ/d349-208505P1" target="_blank">
                 <img src="images/attraction8.jpg" alt="">
+            </a>
             </div>
             <div class="content">
                 <h3>Thailand James bond islands</h3>
                 <p>from $142.87</p>
-                <a href="#" class="btnbuy">buy</a>
+                <a href="https://www.viator.com/en-SG/tours/Phuket/James-Bond-Island-trip-on-Luxury-boat-Lunch-buffet-Dinner-Kayaking-Toys-DJ/d349-208505P1" target="_blank" class="btnbuy">buy</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
+            <a href="https://www.viator.com/en-SG/tours/London/ArcelorMittal-Orbit-Abseil-Experience/d737-57877P1" target="_blank">
                 <img src="images/attraction9.jpg" alt="">
+            </a>
             </div>
             <div class="content">
                 <h3>London Abseil</h3>
                 <p>from $83.09</p>
-                <a href="#" class="btnbuy">buy</a>
+                <a href="https://www.viator.com/en-SG/tours/London/ArcelorMittal-Orbit-Abseil-Experience/d737-57877P1" target="_blank" class="btnbuy">buy</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
+            <a href="https://www.viator.com/en-SG/tours/New-York-City/CATACOMBS-BY-CANDLELIGHT/d687-41393P2" target="_blank">
                 <img src="images/attraction10.jpg" alt="">
+            </a>
             </div>
             <div class="content">
                 <h3>New York Catacombs</h3>
                 <p>from $37</p>
-                <a href="#" class="btnbuy">buy</a>
+                <a href="https://www.viator.com/en-SG/tours/New-York-City/CATACOMBS-BY-CANDLELIGHT/d687-41393P2" target="_blank" class="btnbuy">buy</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
+            <a href="https://www.viator.com/en-SG/tours/Galle/Whales-Watching-at-Mirissa/d22288-106255P8" target="_blank">
                 <img src="images/attraction11.jpg" alt="">
+            </a>
             </div>
             <div class="content">
                 <h3>sri lanka Whales watching Mirissa</h3>
                 <p>from $9</p>
-                <a href="#" class="btnbuy">buy</a>
+                <a href="https://www.viator.com/en-SG/tours/Galle/Whales-Watching-at-Mirissa/d22288-106255P8" target="_blank" class="btnbuy">buy</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
+            <a href="https://www.viator.com/en-SG/tours/Kuala-Lumpur/Full-day-Cameron-Highlands-Day-Trip-from-Kuala-Lumpur/d335-144369P41" target="_blank">
                 <img src="images/attraction12.jpg" alt="">
+            </a>
             </div>
             <div class="content">
                 <h3>malaysia ameron Highlands</h3>
                 <p>from $101</p>
-                <a href="#" class="btnbuy">buy</a>
+                <a href="https://www.viator.com/en-SG/tours/Kuala-Lumpur/Full-day-Cameron-Highlands-Day-Trip-from-Kuala-Lumpur/d335-144369P41" target="_blank" class="btnbuy">buy</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
+            <a href="https://www.viator.com/tours/Fiordland-and-Milford-Sound/Milford-Sound-Sightseeing-Cruise/d756-21377P1" target="_blank">
                 <img src="images/attraction13.jpg" alt="">
+            </a>
             </div>
             <div class="content">
                 <h3>new zealand Cruise Milford</h3>
                 <p>from $83.53</p>
-                <a href="#" class="btnbuy">buy</a>
+                <a href="https://www.viator.com/tours/Fiordland-and-Milford-Sound/Milford-Sound-Sightseeing-Cruise/d756-21377P1" target="_blank" class="btnbuy">buy</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
+            <a href="https://www.viator.com/tours/Vancouver/Victoria-and-Butchart-Gardens-Tour-departing-Vancouver/d616-5313P17" target="_blank">
                 <img src="images/attraction14.jpg" alt="">
+            </a>
             </div>
             <div class="content">
                 <h3>Canada Victoria/Butchart Gardens</h3>
                 <p>from $189.5</p>
-                <a href="#" class="btnbuy">buy</a>
+                <a href="https://www.viator.com/tours/Vancouver/Victoria-and-Butchart-Gardens-Tour-departing-Vancouver/d616-5313P17" target="_blank" class="btnbuy">buy</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
+            <a href="https://www.viator.com/tours/Lisbon/Sintra-and-Cascais-Small-Group-Day-Trip-from-Lisbon/d538-5383SINTRACASCAIS" target="_blank">
                 <img src="images/attraction15.jpg" alt="">
+            </a>
             </div>
             <div class="content">
                 <h3>portugal Sintra and Cascais </h3>
                 <p>from $94.37</p>
-                <a href="#" class="btnbuy">buy</a>
+                <a href="https://www.viator.com/tours/Lisbon/Sintra-and-Cascais-Small-Group-Day-Trip-from-Lisbon/d538-5383SINTRACASCAIS" target="_blank" class="btnbuy">buy</a>
             </div>
         </div>
 
