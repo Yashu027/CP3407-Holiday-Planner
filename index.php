@@ -22,15 +22,15 @@
 
 <section class="header">
 
-    <a href = "home.php" class = "logo">Holiday-planner</a>
+    <a href ="index.php" class = "logo">Holiday-planner</a>
 
     <nav class="navbar">
         <a href="index.php">home</a>
         <a href="packages.php">packages</a>
         <a href="book.php">book</a>
-        <a href="aboutus.php">about us</a>
         <a href="moreattractions.php">More Attractions</a>
         <a href="store.php">store</a>
+        <a href="aboutus.php">about us</a>
         <a href="loginregister.php">login/register</a>
     </nav>
 
@@ -87,34 +87,34 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/test (4).jpg" alt="">
+                <img src="images/packages1.jpg" alt="">
             </div>
             <div class="content">
                 <h3>India</h3>
                 <p>from $379</p>
-                <a href="#" class="btn">Book Trip</a>
+                <a href="book.php" class="btn">Book Trip</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
-                <img src="images/test (5).jpg" alt="">
+                <img src="images/packages2.jpg" alt="">
             </div>
             <div class="content">
                 <h3>Singapore</h3>
                 <p>From $419</p>
-                <a href="#" class="btn">Book Trip</a>
+                <a href="book.php" class="btn">Book Trip</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
-                <img src="images/test.jpg" alt="">
+                <img src="images/packages3.jpg" alt="">
             </div>
             <div class="content">
                 <h3>Australia</h3>
                 <p>From $469</p>
-                <a href="#" class="btn">Book Trip</a>
+                <a href="book.php" class="btn">Book Trip</a>
             </div>
         </div>
 
@@ -213,7 +213,7 @@
     </div>
     <div class="content">
         <h3>About Us</h3>
-        <p>About Us information goes here.</p>
+        <p>Holiday Planner, We Specialize In Tailor-Made Vacations, Offering Personalized Experiences That Cater To Your Unique Interests And Preferences. Our Expert Travel Consultants Work Closely With You To Craft Bespoke Itineraries, Ensuring An Unforgettable Journey That Captures The Essence Of Your Dream Destination.</p>
         <a href="#" class="btn">Know More</a>
     </div>
 </section>

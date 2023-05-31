@@ -27,9 +27,9 @@
         <a href="index.php">home</a>
         <a href="packages.php">packages</a>
         <a href="book.php">book</a>
-        <a href="aboutus.php">about us</a>
         <a href="moreattractions.php">More Attractions</a>
         <a href="store.php">store</a>
+        <a href="aboutus.php">about us</a>
         <a href="loginregister.php">login/register</a>
     </nav>
 

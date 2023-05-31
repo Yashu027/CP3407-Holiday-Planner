@@ -28,9 +28,9 @@
         <a href="index.php">home</a>
         <a href="packages.php">packages</a>
         <a href="book.php">book</a>
-        <a href="aboutus.php">about us</a>
         <a href="moreattractions.php">More Attractions</a>
         <a href="store.php">store</a>
+        <a href="aboutus.php">about us</a>
         <a href="loginregister.php">login/register</a>
     </nav>
 
@@ -50,7 +50,7 @@
         
         <div class="box">
             <div class="image">
-                <img src="images/test (4).jpg" alt="">
+                <img src="images/packages1.jpg" alt="">
             </div>
             <div class="content">
                 <h3>India</h3>
@@ -61,7 +61,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/test (5).jpg" alt="">
+                <img src="images/packages2.jpg" alt="">
             </div>
             <div class="content">
                 <h3>Singapore</h3>
@@ -72,7 +72,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/test (4).jpg" alt="">
+                <img src="images/packages3.jpg" alt="">
             </div>
             <div class="content">
                 <h3>Australia</h3>
@@ -83,7 +83,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/test (5).jpg" alt="">
+                <img src="images/packages4.jpg" alt="">
             </div>
             <div class="content">
                 <h3>Austria</h3>
@@ -94,7 +94,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/test (4).jpg" alt="">
+                <img src="images/packages5.jpg" alt="">
             </div>
             <div class="content">
                 <h3>Dubai</h3>
@@ -105,7 +105,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/test (5).jpg" alt="">
+                <img src="images/packages6.jpg" alt="">
             </div>
             <div class="content">
                 <h3>Paris</h3>
@@ -116,7 +116,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/test (4).jpg" alt="">
+                <img src="images/packages7.jpg" alt="">
             </div>
             <div class="content">
                 <h3>Maldives</h3>
@@ -127,7 +127,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/test (5).jpg" alt="">
+                <img src="images/packages8.jpg" alt="">
             </div>
             <div class="content">
                 <h3>Thailand</h3>
@@ -138,7 +138,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/test (4).jpg" alt="">
+                <img src="images/packages9.jpg" alt="">
             </div>
             <div class="content">
                 <h3>London</h3>
@@ -149,7 +149,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/test (5).jpg" alt="">
+                <img src="images/packages10.jpg" alt="">
             </div>
             <div class="content">
                 <h3>New york</h3>
@@ -160,7 +160,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/test (4).jpg" alt="">
+                <img src="images/packages11.jpg" alt="">
             </div>
             <div class="content">
                 <h3>Sri lanka</h3>
@@ -171,7 +171,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/test (5).jpg" alt="">
+                <img src="images/packages12.jpg" alt="">
             </div>
             <div class="content">
                 <h3>Malaysia</h3>
