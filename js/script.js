@@ -138,3 +138,101 @@ function validateForm() {
     alert('Thanks for booking, our booking assossiates will contact you');
     return true;
 }
+
+// Login and register start
+
+document.getElementById('login-link').addEventListener('click', function() {
+    document.getElementById('auth-modal').style.display = 'block';
+});
+
+document.getElementById('login-tab').addEventListener('click', function() {
+    document.getElementById('login-form').style.display = 'block';
+    document.getElementById('register-form').style.display = 'none';
+});
+
+document.getElementById('register-tab').addEventListener('click', function() {
+    document.getElementById('login-form').style.display = 'none';
+    document.getElementById('register-form').style.display = 'block';
+});
+
+const loginForm = document.getElementById('login-form');
+const registerForm = document.getElementById('register-form');
+const logoutLink = document.getElementById('logout-link');
+const loginLinkContainer = document.getElementById('login-link-container');
+const usernameElement = document.getElementById('username');
+const homeSection = document.getElementById('home-section');
+
+let users = JSON.parse(localStorage.getItem('users')) || {};
+
+document.getElementById('login-link').addEventListener('click', function (event) {
+    event.preventDefault();
+    document.getElementById('auth-modal').style.display = 'block';
+});
+
+loginForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+    const username = document.getElementById('login-username').value;
+    const password = document.getElementById('login-password').value;
+
+    if (users[username] && users[username].password === password) {
+        localStorage.setItem('loggedInUser', username);
+        usernameElement.textContent = username;
+        document.getElementById('auth-modal').style.display = 'none';
+        loginLinkContainer.style.display = 'none';
+        document.getElementById('welcome-user').style.display = 'inline';
+        logoutLink.style.display = 'inline';
+        homeSection.style.display = 'block';
+    } else {
+        alert('Incorrect username or password');
+    }
+});
+
+registerForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+    const fullname = document.getElementById('register-fullname').value;
+    const username = document.getElementById('register-username').value;
+    const password = document.getElementById('register-password').value;
+    const contact = document.getElementById('register-contact').value;
+
+    users[username] = { password: password, fullname: fullname, contact: contact };
+
+    alert(`Registered successfully. Welcome, ${username}! Please log in.`);
+    document.getElementById('login-tab').click(); 
+});
+
+logoutLink.addEventListener('click', function (event) {
+    event.preventDefault();
+    localStorage.removeItem('loggedInUser');
+    usernameElement.textContent = '';
+    loginLinkContainer.style.display = 'inline';
+    document.getElementById('welcome-user').style.display = 'none';
+    logoutLink.style.display = 'none';
+    homeSection.style.display = 'none';
+});
+
+document.getElementById('login-tab').addEventListener('click', function (event) {
+    event.preventDefault();
+    this.classList.add('active');
+    document.getElementById('register-tab').classList.remove('active');
+    loginForm.style.display = 'block';
+    registerForm.style.display = 'none';
+});
+
+document.getElementById('register-tab').addEventListener('click', function (event) {
+    event.preventDefault();
+    this.classList.add('active');
+    document.getElementById('login-tab').classList.remove('active');
+    loginForm.style.display = 'none';
+    registerForm.style.display = 'block';
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const loggedInUser = localStorage.getItem('loggedInUser');
+    if (loggedInUser) {
+        usernameElement.textContent = loggedInUser;
+        loginLinkContainer.style.display = 'none';
+        document.getElementById('welcome-user').style.display = 'inline';
+        logoutLink.style.display = 'inline';
+        homeSection.style.display = 'block';
+    }
+});
