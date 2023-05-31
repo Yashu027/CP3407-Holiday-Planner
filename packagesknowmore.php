@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup Complete Form</title>
+    <title>Know More About Packages</title>
     <!-- Swiper CSS link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 
@@ -77,39 +77,133 @@
 
 <!-- login register end -->
 
-<!-- Sign up complete form start -->
-    <div class="form_1">
-<div class="sign_up">
-    <h1>Birthday Specials Signup</h1> <br><br>
-    <h2><b>Thank you for signing up for the Holiday-planner Birthday Specials.<br><br>
-    We have added the following information regarding your interests:</b></h2>
-    <p class="form_size">Name:</p><?php echo $_POST["name"]; ?><br>
-    <p class="form_size">Email: </p><?php echo $_POST["email"]; ?><br>
-    <?php $str1 = " ";
-          if ((isset($_POST["product1"])) ||
-            (isset($_POST["product2"])) ||
-            (isset($_POST["product3"])) ||
-            (isset($_POST["product4"])))
-            $str1.= "<p class='form_size'>Product interests:</p>";
-          echo $str1;    ?>
-      <?php $str = " ";
-          if (isset($_POST["product1"]))
-            $str.= $_POST["product1"].= "<br>";
-          if (isset($_POST["product2"]))
-            $str.= $_POST["product2"].= "<br>";
-          if (isset($_POST["product3"]))
-            $str.= $_POST["product3"].= "<br>";
-          if (isset($_POST["product4"]))
-            $str.= $_POST["product4"];
-          echo $str;    ?>
-<p class="form_size">Birthday: </p>
-Day:&nbsp;<?php echo $_POST["birth_day"]; ?>&nbsp;&nbsp; Month:&nbsp;<?php echo $_POST["birth_month"]; ?>
-    <p></p>
-  <p></p>
-  <p></p>
-  </div>
+<!-- Packages know more start -->
+<div class="heading" style="background:url(images/heading.jpg) no-repeat">
+    <h1>know more about the packages</h1>
 </div>
-<!-- Sign up complete form end -->
+
+<div class="locations">
+<div class="location" id="India">
+    <h2>India</h2>
+    <ul>
+      <li>Flight ticket</li>
+      <li>Visa</li>
+      <li>Accommodations: The Oberoi Amarvilas, Hotel Clarks Shiraz, Zostel Agra</li>
+      <li>Attractions: Taj Mahal, Qutub Minar, Red Fort, Jaipur City Palace, Amber Fort, Humayun's Tomb, Mehtab Bagh</li>
+    </ul>
+</div>
+
+<div class="location" id="Singapore">
+    <h2>Singapore</h2>
+    <ul>
+      <li>Flight ticket</li>
+      <li>Visa</li>
+      <li>Accommodations: Marina Bay Sands, Hotel G Singapore, Capsule Pod Boutique Hostel</li>
+      <li>Attractions: Gardens by the Bay, Sentosa Island, Marina Bay Sands, Merlion Park, Orchard Road, Chinatown, Universal Studios Singapore</li>
+    </ul>
+</div>
+
+<div class="location" id="Australia">
+    <h2>Australia (Sydney)</h2>
+    <ul>
+      <li>Flight ticket</li>
+      <li>Visa</li>
+      <li>Accommodations: Park Hyatt Sydney, Meriton Suites Kent Street, Sydney Harbour YHA</li>
+      <li>Attractions: Sydney Opera House, Sydney Harbour Bridge, Bondi Beach, Darling Harbour, The Rocks, Royal Botanic Garden Sydney, Queen Victoria Building</li>
+    </ul>
+</div>
+
+<div class="location" id="Austria">
+    <h2>Austria (Vienna)</h2>
+    <ul>
+      <li>Flight ticket</li>
+      <li>Visa</li>
+      <li>Accommodations: Hotel Sacher Wien, 25hours Hotel beim MuseumsQuartier, Wombats City Hostel Vienna</li>
+      <li>Attractions: Schönbrunn Palace, St. Stephen's Cathedral, Vienna State Opera, Belvedere Palace, Hofburg, Prater, Albertina</li>
+    </ul>
+</div>
+
+<div class="location" id="Dubai">
+    <h2>Dubai</h2>
+    <ul>
+      <li>Flight ticket</li>
+      <li>Visa</li>
+      <li>Accommodations: Burj Al Arab Jumeirah, Hilton Dubai Jumeirah, Marina View Hotel Apartments</li>
+      <li>Attractions: Burj Khalifa, Dubai Mall, Palm Jumeirah, Dubai Creek, The Dubai Fountain, Jumeirah Mosque, Dubai Frame</li>
+    </ul>
+</div>
+
+<div class="location" id="Paris">
+    <h2>Paris</h2>
+    <ul>
+      <li>Flight ticket</li>
+      <li>Visa</li>
+      <li>Accommodations: The Ritz Paris, Hotel de France Quartier Latin, The Loft Boutique Hostel</li>
+      <li>Attractions: Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, Champs-Élysées, Montmartre, Palace of Versailles, Sainte-Chapelle</li>
+    </ul>
+</div>
+
+<div class="location" id="Maldives">
+    <h2>Maldives</h2>
+    <ul>
+      <li>Flight ticket</li>
+      <li>Visa</li>
+      <li>Accommodations: Gili Lankanfushi Maldives, Hotel Ocean Grand at Hulhumale, UI Inn</li>
+      <li>Attractions: Malé Atoll, Ari Atoll, Underwater snorkeling and diving sites, Maafushi Island, Thulusdhoo Island</li>
+    </ul>
+</div>
+
+<div class="location" id="Thailand">
+    <h2>Thailand</h2>
+    <ul>
+      <li>Flight ticket</li>
+      <li>Visa</li>
+      <li>Accommodations: Mandarin Oriental, Bangkok, ibis Styles Bangkok Khaosan Viengtai, Here Hostel</li>
+      <li>Attractions: Grand Palace, Wat Arun, Wat Phra Kaew, Chatuchak Weekend Market, Elephant Nature Park, Doi Suthep, Chiang Mai Night Bazaar</li>
+    </ul>
+</div>
+
+<div class="location" id="London">
+    <h2>London</h2>
+    <ul>
+      <li>Flight ticket</li>
+      <li>Visa</li>
+      <li>Accommodations: The Savoy, Premier Inn London City, Generator Hostel London</li>
+      <li>Attractions: British Museum, Buckingham Palace, Tower of London, London Eye, The Shard, Hyde Park, Tower Bridge</li>
+    </ul>
+</div>
+
+<div class="location" id="Newyork">
+    <h2>New York</h2>
+    <ul>
+      <li>Flight ticket</li>
+      <li>Visa</li>
+      <li>Accommodations: The Plaza, The Pod 51, HI NYC Hostel</li>
+      <li>Attractions: Central Park, Times Square, Statue of Liberty, Empire State Building, Metropolitan Museum of Art, Broadway, Rockefeller Center</li>
+    </ul>
+</div>
+
+<div class="location" id="Srilanka">
+    <h2>Sri Lanka</h2>
+    <ul>
+      <li>Flight ticket</li>
+      <li>Visa</li>
+      <li>Accommodations: Shangri-La Hotel, Colombo, OZO Colombo, Clock Inn Colombo</li>
+      <li>Attractions: Temple of the Tooth, Royal Botanical Gardens, Unawatuna Beach, Galle Fort, Gangaramaya Temple, National Museum of Colombo, Kandy Lake</li>
+    </ul>
+</div>
+
+<div class="location" id="Malaysia">
+    <h2>Malaysia</h2>
+    <ul>
+      <li>Flight ticket</li>
+      <li>Visa</li>
+      <li>Accommodations: The Majestic Hotel Kuala Lumpur, Hotel Sentral Kuala Lumpur, BackHome Kuala Lumpur</li>
+      <li>Attractions: Petronas Towers, Batu Caves, KLCC Park, Jalan Alor, Merdeka Square, George Town, Penang Hill</li>
+    </ul>
+</div>
+</div>
+<!-- Packages know more end -->
 
 <!-- Footer Start. -->
 

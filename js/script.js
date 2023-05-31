@@ -19,6 +19,8 @@ var swiper = new Swiper(".home-slider", {
     },
 });
 
+// Packages loadmore button start
+
 let loadMoreBtn = document.querySelector('.packages .loadmore .btn');
 let currentItem = 3;
 
@@ -38,6 +40,10 @@ if(loadMoreBtn){
 } else {
     console.log("Could not find loadMoreBtn");
 }
+
+// Packages loadmore button end
+
+// store loadmore button start
 
 let loadMoreBtnStore = document.querySelector('.store .loadmore .btn');
 let currentItemStore = 5;
@@ -59,6 +65,10 @@ if(loadMoreBtnStore){
     console.log("Could not find loadMoreBtnStore");
 }
 
+// store loadmore button end
+
+// Attractions loadmore button start
+
 let loadMoreBtnAttraction = document.querySelector('.attraction .loadmore .btn');
 let currentItemAttraction = 4;
 
@@ -78,6 +88,10 @@ if(loadMoreBtnAttraction){
 } else {
     console.log("Could not find loadMoreBtnAttraction");
 }
+
+// Attractions loadmore button end
+
+// Birthday sign up start
 
 function name_validate(name) {
 	if (name.length == 1){
@@ -138,6 +152,8 @@ function validateForm() {
     alert('Thanks for booking, our booking assossiates will contact you');
     return true;
 }
+
+// Birthday sign up end
 
 // Login and register start
 
@@ -236,3 +252,5 @@ document.addEventListener('DOMContentLoaded', function() {
         homeSection.style.display = 'block';
     }
 });
+
+// login register end

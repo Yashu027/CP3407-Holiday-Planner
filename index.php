@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>Home</title>
     <!-- Swiper CSS link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 
@@ -41,6 +41,8 @@
 
 <!-- Header End. -->
 
+<!-- login register start -->
+
 <section class="loginregister">
     <div id="auth-modal" style="display: none;">
         <h1>Holiday-Planner</h1>
@@ -72,6 +74,9 @@
             
     </div>
 </section>
+
+<!-- login register end -->
+
 <!-- Home Section Start. -->
 
 <section class="home">
@@ -81,7 +86,7 @@
                 <div class="content">
                     <span>Travel, Explore and Discover</span>
                     <h3>Travel across the world</h3>
-                    <a href="#" class="btn">Travel</a>
+                    <a href="book.php" class="btn">Travel</a>
                 </div>
             </div>
 
@@ -89,7 +94,7 @@
                 <div class="content">
                     <span>Travel, Explore and Discover</span>
                     <h3>Explore Countries</h3>
-                    <a href="#" class="btn">Explore</a>
+                    <a href="book.php" class="btn">Explore</a>
                 </div>
             </div>
 
@@ -97,7 +102,7 @@
                 <div class="content">
                     <span>Travel, Explore and Discover</span>
                     <h3>Discover New things</h3>
-                    <a href="#" class="btn">Discover</a>
+                    <a href="book.php" class="btn">Discover</a>
                 </div>
             </div>
 
@@ -124,6 +129,7 @@
             <div class="content">
                 <h3>India</h3>
                 <p>from $379</p>
+                <a href="packagesknowmore.php#India" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">Book Trip</a>
             </div>
         </div>
@@ -135,6 +141,7 @@
             <div class="content">
                 <h3>Singapore</h3>
                 <p>From $419</p>
+                <a href="packagesknowmore.php#Singapore" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">Book Trip</a>
             </div>
         </div>
@@ -146,6 +153,7 @@
             <div class="content">
                 <h3>Australia</h3>
                 <p>From $469</p>
+                <a href="packagesknowmore.php#Australia" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">Book Trip</a>
             </div>
         </div>
@@ -259,12 +267,12 @@
 
         <div class="box">
             <h3>Quick Links</h3>
-            <a href="home.php"><i class="fa fa-home"></i>home</a>
+            <a href="index.php"><i class="fa fa-home"></i>home</a>
             <a href="packages.php"><i class="fa fa-plane"></i>packages</a>
             <a href="book.php"><i class="fa fa-handshake"></i>book</a>
-            <a href="attractions.php"><i class="fa fa-university"></i>More Attractions</a>
+            <a href="moreattractions.php"><i class="fa fa-university"></i>More Attractions</a>
             <a href="store.php"><i class="fa fa-store"></i>Store</a>
-            <a href="#"><i class="fa fa-user-circle"></i>About Us</a>
+            <a href="aboutus.php"><i class="fa fa-user-circle"></i>About Us</a>
         </div>
 
         <div class="box">

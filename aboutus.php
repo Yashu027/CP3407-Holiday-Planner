@@ -41,6 +41,8 @@
 
 <!-- Header End. -->
 
+<!-- login register start -->
+
 <section class="loginregister">
     <div id="auth-modal" style="display: none;">
         <h1>Holiday-Planner</h1>
@@ -73,6 +75,9 @@
     </div>
 </section>
 
+<!-- login register end -->
+
+<!-- about us content start -->
 
 <div class="heading" style="background:url(images/heading.jpg) no-repeat">
     <h1>about us</h1>
@@ -112,6 +117,8 @@
         </div>
     </div>
 </section>
+
+<!-- about us content start -->
 
 <!-- Customer Feedback Starts -->
 
@@ -171,10 +178,10 @@
 
         <div class="box">
             <h3>Quick Links</h3>
-            <a href="home.php"><i class="fa fa-home"></i>home</a>
+            <a href="index.php"><i class="fa fa-home"></i>home</a>
             <a href="packages.php"><i class="fa fa-plane"></i>packages</a>
             <a href="book.php"><i class="fa fa-handshake"></i>book</a>
-            <a href="attractions.php"><i class="fa fa-university"></i>More Attractions</a>
+            <a href="moreattractions.php"><i class="fa fa-university"></i>More Attractions</a>
             <a href="store.php"><i class="fa fa-store"></i>Store</a>
             <a href="aboutus.php"><i class="fa fa-user-circle"></i>About Us</a>
         </div>

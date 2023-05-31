@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup</title>
+    <title>Sign Up</title>
     <!-- Swiper CSS link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 
@@ -41,6 +41,8 @@
 
 <!-- Header End. -->
 
+<!-- login register start -->
+
 <section class="loginregister">
     <div id="auth-modal" style="display: none;">
         <h1>Holiday-Planner</h1>
@@ -72,6 +74,8 @@
             
     </div>
 </section>
+
+<!-- login register end -->
 
 <!-- Sign Up Start -->
 
@@ -130,12 +134,12 @@
 
         <div class="box">
             <h3>Quick Links</h3>
-            <a href="home.php"><i class="fa fa-home"></i>home</a>
+            <a href="index.php"><i class="fa fa-home"></i>home</a>
             <a href="packages.php"><i class="fa fa-plane"></i>packages</a>
             <a href="book.php"><i class="fa fa-handshake"></i>book</a>
-            <a href="attractions.php"><i class="fa fa-university"></i>More Attractions</a>
+            <a href="moreattractions.php"><i class="fa fa-university"></i>More Attractions</a>
             <a href="store.php"><i class="fa fa-store"></i>Store</a>
-            <a href="#"><i class="fa fa-user-circle"></i>About Us</a>
+            <a href="aboutus.php"><i class="fa fa-user-circle"></i>About Us</a>
         </div>
 
         <div class="box">

@@ -41,6 +41,8 @@
 
 <!-- Header End. -->
 
+<!-- login register start -->
+
 <section class="loginregister">
     <div id="auth-modal" style="display: none;">
         <h1>Holiday-Planner</h1>
@@ -73,6 +75,9 @@
     </div>
 </section>
 
+<!-- login register end -->
+
+<!-- packages content start -->
 
 <div class="heading" style="background:url(images/heading.jpg) no-repeat">
     <h1>packages</h1>
@@ -89,6 +94,7 @@
             <div class="content">
                 <h3>India</h3>
                 <p>from $399</p>
+                <a href="packagesknowmore.php#India" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">book trip</a>
             </div>
         </div>
@@ -100,6 +106,7 @@
             <div class="content">
                 <h3>Singapore</h3>
                 <p>from $499</p>
+                <a href="packagesknowmore.php#Singapore" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">book trip</a>
             </div>
         </div>
@@ -111,6 +118,7 @@
             <div class="content">
                 <h3>Australia</h3>
                 <p>from $559</p>
+                <a href="packagesknowmore.php#Australia" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">book trip</a>
             </div>
         </div>
@@ -122,6 +130,7 @@
             <div class="content">
                 <h3>Austria</h3>
                 <p>from $349</p>
+                <a href="packagesknowmore.php#Austria" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">book trip</a>
             </div>
         </div>
@@ -133,6 +142,7 @@
             <div class="content">
                 <h3>Dubai</h3>
                 <p>from $469</p>
+                <a href="packagesknowmore.php#Dubai" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">book trip</a>
             </div>
         </div>
@@ -144,6 +154,7 @@
             <div class="content">
                 <h3>Paris</h3>
                 <p>from $739</p>
+                <a href="packagesknowmore.php#Paris" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">book trip</a>
             </div>
         </div>
@@ -155,6 +166,7 @@
             <div class="content">
                 <h3>Maldives</h3>
                 <p>from $599</p>
+                <a href="packagesknowmore.php#Maldives" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">book trip</a>
             </div>
         </div>
@@ -166,6 +178,7 @@
             <div class="content">
                 <h3>Thailand</h3>
                 <p>from $399</p>
+                <a href="packagesknowmore.php#Thailand" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">book trip</a>
             </div>
         </div>
@@ -177,6 +190,7 @@
             <div class="content">
                 <h3>London</h3>
                 <p>from $789</p>
+                <a href="packagesknowmore.php#London" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">book trip</a>
             </div>
         </div>
@@ -188,6 +202,7 @@
             <div class="content">
                 <h3>New york</h3>
                 <p>from $999</p>
+                <a href="packagesknowmore.php#Newyork" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">book trip</a>
             </div>
         </div>
@@ -199,6 +214,7 @@
             <div class="content">
                 <h3>Sri lanka</h3>
                 <p>from $299</p>
+                <a href="packagesknowmore.php#Srilanka" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">book trip</a>
             </div>
         </div>
@@ -210,6 +226,7 @@
             <div class="content">
                 <h3>Malaysia</h3>
                 <p>from $489</p>
+                <a href="packagesknowmore.php#Malaysia" class="knowmore">know more</a> <br>
                 <a href="book.php" class="btn">book trip</a>
             </div>
         </div>
@@ -226,12 +243,12 @@
 
         <div class="box">
             <h3>Quick Links</h3>
-            <a href="home.php"><i class="fa fa-home"></i>home</a>
+            <a href="index.php"><i class="fa fa-home"></i>home</a>
             <a href="packages.php"><i class="fa fa-plane"></i>packages</a>
             <a href="book.php"><i class="fa fa-handshake"></i>book</a>
-            <a href="attractions.php"><i class="fa fa-university"></i>More Attractions</a>
+            <a href="moreattractions.php"><i class="fa fa-university"></i>More Attractions</a>
             <a href="store.php"><i class="fa fa-store"></i>Store</a>
-            <a href="#"><i class="fa fa-user-circle"></i>About Us</a>
+            <a href="aboutus.php"><i class="fa fa-user-circle"></i>About Us</a>
         </div>
 
         <div class="box">
@@ -260,6 +277,7 @@
 
     </div>
 </section>
+<!-- packages content end -->
 
 <!-- Footer End -->
 
